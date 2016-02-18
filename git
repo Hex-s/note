@@ -1,0 +1,10 @@
+1.建仓 git init
+2.远程链接 git remote add origin git@server-name:path/repo-name.git
+3.
+  git fetch origin master
+  git merge origin/master -m '同步master'
+  git push origin branch
+4.
+  git add filename
+  git commit -m '更新文件'
+  git push origin branch
